@@ -21,3 +21,8 @@
 效果图部分展示:
 
 ![clang-checkCode效果图](./Resources/clang-checkCode.png)
+
+
+### 官方文档
+* [Clang 12 documentation](http://clang.llvm.org/docs/index.html)
+* [cplusplus reference](http://www.cplusplus.com/reference/)
