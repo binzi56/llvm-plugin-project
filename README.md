@@ -28,6 +28,8 @@
 
 基本使用说明:
 - 导出HTML在浏览器中查看
+   - 函数调用关系(Call Graph)
+   - 类继承关系(Class Diagram)
 - 导出为PNG
 
 效果图部分展示:
