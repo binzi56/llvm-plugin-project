@@ -1,0 +1,36 @@
+rule-configurations:
+  - key: CYCLOMATIC_COMPLEXITY  //方法的圈复杂度(eg: M = 2(if) + 1(for) + 1(for) + 2(if) + 2(if) + 2(if) + 1 = 11)
+    value: 30
+  - key: LONG_LINE  //一行代码的字符数
+    value: 110
+  - key: NCSS_METHOD //方法的非注释源语句数
+    value: 50
+  - key: LONG_VARIABLE_NAME //变量名称的字符数
+    value: 40
+  - key: NESTED_BLOCK_DEPTH //块或复合语句的深度
+    value: 6
+  - key: MINIMUM_CASES_IN_SWITCH   //switch语句中case语句的计数
+    value: 2
+  - key: SHORT_VARIABLE_NAME  //变量名称的字符数
+    value: 1
+  - key: TOO_MANY_METHODS  //一类方法的数量
+    value: 50
+  - key: LONG_METHOD  //方法或函数的行数
+    value: 100
+disable-rules:
+  - RedundantLocalVariable 
+  - SHORT_VARIABLE_NAME 
+  - LongVariableName
+  - UnnecessaryElseStatement 
+  - RedundantNilCheck 
+  - RedundantIfStatement
+  - InvertedLogic
+  - AssignIvarOutsideAccessors
+  - UseObjectSubscripting
+  - BitwiseOperatorInConditional
+  - PreferEarlyExit
+  - UnusedMethodParameter
+max-priority-1: 1000
+max-priority-2: 1000
+max-priority-3: 1000
+enable-clang-static-analyzer: false
